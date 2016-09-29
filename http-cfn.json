@@ -41,7 +41,6 @@
       "Type": "AWS::EC2::Instance",
       "Properties": {
         "ImageId": "ami-b04e92d0",
-        "KeyName": "dan",
         "InstanceType": "t2.micro",
         "AvailabilityZone": "us-west-2a",
         "SecurityGroups": [{
